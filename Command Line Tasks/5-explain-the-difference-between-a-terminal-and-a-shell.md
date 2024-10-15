@@ -3,7 +3,8 @@
 ## The Terminal
 
 ### What is a terminal? 
-A terminal is an interface that allows a user to interact with a computer by entering commands. Historically, a terminal was a physical device with a keyboard and display. What we commonly think of today as the terminal is more specifically called a terminal emulator and is software meant to emulate the functionality of a hardware terminal. 
+
+A terminal is an interface that allows a user to interact with a computer by entering commands. Historically, a terminal was a physical device with a keyboard and display. What we commonly think of today as the terminal is more specifically called a terminal emulator and is software meant to emulate the functionality of a hardware terminal.
 
 ### Roles of the terminal
 
@@ -18,9 +19,11 @@ A terminal is an interface that allows a user to interact with a computer by ent
 ## The Shell
 
 ### What is a Shell?
+
 A shell is a command line interpreter that processes commands from the user and returns the results. It accepts commands and translates them into instructions that the kernel can understand and execute.
 
 ### Roles of a Shell
+
 - Accepts commands entered by the user and translates them into executable actions
 - Provides a scripting language for automation
 - Interacts with the kernal to carry out tasks
@@ -34,11 +37,14 @@ A shell is a command line interpreter that processes commands from the user and 
 ## Interaction Between Terminal and Shell
 
 ### Communication
+
 The terminal and shell work together, but are distinct components from one another. The terminal is the interface for typing commands and viewing output, but it does not process commands by itself. The shell receives input from the terminal, interprets it, executes the necessary commands or programs, and then sends the results back to the terminal to be displayed.
 
 ### Dependency
+
 The terminal and shell are dependent on one another in that a terminal cannot function without a shell and a shell cannot receive input or display output without the terminal. However, they are also independent of each other as a terminal emulator can be used to interact with different types of shells. For example, the Terminal app on macOS can be used with bash, zsh, fish, or many other shells.
 
 ## Sources
+
 1. [Computer terminal - Wikipedia](https://en.wikipedia.org/wiki/Computer_terminal#Emulation)
 1. [Shell (computing) - Wikipedia](https://en.wikipedia.org/wiki/Shell_(computing)#Command-line_shells)
