@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The `cd` command, short for "change directory," is a fundamental CLI tool for navigating the file system.
+The `cd` command, short for change directory, is a fundamental CLI tool for navigating the file system.
 
 ## Basic Usage
 
 The simplest form of the `cd` command is:
 
-```bash
+```
 cd directory_name
 ```
 
@@ -34,7 +34,7 @@ While `cd` is relatively simple, it does have some useful options:
 
 Relative paths are based on your current location:
 
-```bash
+```
 cd Documents/Projects
 ```
 
@@ -44,35 +44,50 @@ This navigates from your current directory into a "Documents" folder, then into 
 
 Absolute paths start from the root directory:
 
-```bash
+```
 cd /home/username/Documents/Projects
 ```
 
-This navigates to the "Projects" folder regardless of your current location.
+This navigates to the "Projects" folder regardless of your current location. 
 
 ### Navigating to Parent Directories
 
 To move up in the directory structure:
 
-```bash
+```
 cd ..
 ```
 
 To move up multiple levels:
 
-```bash
+```
 cd ../../
+```
+
+To move into another directory within a parent directory:
+
+```
+cd ../Documents
 ```
 
 ### Navigating to Home Directory
 
 There are multiple ways to return to the home directory:
 
-```bash
+```
 cd ~
 cd
 cd $HOME
 ```
+
+You can also use `cd ~` and `cd $HOME` as the starting directory for an absolute path.
+
+```
+cd ~/Documents
+cd $HOME/Documents
+```
+
+These commands will both navigate to the Documents directory within the users home directory.
 
 ## Troubleshooting Common Issues
 
